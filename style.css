@@ -1,0 +1,19 @@
+header {
+background-color: #424242;
+    padding-top: 25px;
+    padding-bottom: 25px
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: Orator Std;
+}
+    
+header li {
+    text-align: center;
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
