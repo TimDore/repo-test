@@ -1,19 +1,39 @@
 header {
 background-color: #424242;
-    padding-top: 25px;
-    padding-bottom: 25px
+    border-radius: 20px;
+}
+
+ul{
+margin: 0;
 }
 
 header a {
     color: white;
     text-decoration: none;
     font-family: Orator Std;
+    list-style: none;
 }
     
 header li {
     text-align: center;
     list-style: none;
+    display: inline-block;
+    width: 32%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-right: 2px solid white;
+    
+}
+
+header li:last-of-type{
+    border:0;
 }
 
 h1 {
     text-align: center;
+}
+
+main { 
+    max-width: 600px;
+    margin: auto;
+}
