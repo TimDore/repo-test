@@ -30,10 +30,28 @@ header li:last-of-type{
 }
 
 h1 {
-    text-align: center;
+    text-align: center
 }
 
 main { 
-    max-width: 600px;
+    max-width: 900px;
     margin: auto;
+}
+
+.image-left, .text-right{
+    display: inline-block;
+}
+
+.image-left{
+    width:150px;
+}
+
+.image-left img{
+    width:100%;
+}
+
+.text-right{
+    width:600px;
+    margin-left:20px;
+    text-align: center;
 }
