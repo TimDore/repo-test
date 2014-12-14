@@ -44,6 +44,7 @@ main {
 
 .image-left{
     width:150px;
+    animation: square to circle 2s 1s infinite alternate;
 }
 
 .image-left img{
@@ -54,4 +55,10 @@ main {
     width:600px;
     margin-left:20px;
     text-align: center;
+}
+
+body { 
+    background-image: url("images/woodensurface.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
