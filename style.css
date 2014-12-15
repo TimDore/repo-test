@@ -34,7 +34,6 @@ h1 {
 }
 
 main { 
-    max-width: 900px;
     margin: auto;
 }
 
@@ -43,7 +42,7 @@ main {
 }
 
 .image-left{
-    width:150px;
+    width:350px;
 }
 
 .image-left img{
@@ -54,4 +53,19 @@ main {
     width:600px;
     margin-left:20px;
     text-align: center;
+    vertical-align: top;
+}
+
+body { 
+    background-image: url("images/fond-ecran-informatique-divers-033.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+nav li:hover a{
+    color: red;
+}
+
+.active a {
+    color: red;
 }
