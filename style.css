@@ -30,7 +30,9 @@ header li:last-of-type{
 }
 
 h1 {
-    text-align: center
+    text-align: center;
+    font-family: Copperplate gothic bold;
+    
 }
 
 main { 
@@ -68,4 +70,8 @@ nav li:hover a{
 
 .active a {
     color: red;
+}
+
+.bloc-parcours{
+    text-align: center
 }
